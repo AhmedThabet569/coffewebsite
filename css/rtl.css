@@ -1,0 +1,30 @@
+body
+{
+	direction: rtl;
+	overflow-x: hidden;
+	width: 100%;
+}
+.appointment-form .form-group input {
+    text-align: right;
+    direction: rtl;
+}
+.appointment-form .form-group .icon {
+    position: absolute;
+    top: 50% !important;
+    left: 0;
+    right: unset;
+   }
+   
+.navbar-brand {
+    position: absolute;
+       position: absolute;
+    left: 50%;
+    transform: translateX(0%);
+}
+.navbar-right
+{
+    margin-left: 80px;
+}
+.navbar-left{
+    margin-right: 100px;
+}

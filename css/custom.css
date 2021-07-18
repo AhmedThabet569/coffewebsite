@@ -1,0 +1,618 @@
+/*
+$primary-color: #76bb20;
+$secondry-color: #cb3525;
+
+*/
+body
+{
+	background:url();
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(100%);
+}
+.ftco-navbar-light .navbar-nav > .nav-item.active > a {
+    color: #75bd19;
+}
+.ftco-navbar-light .navbar-nav > .nav-item > a
+{
+ font-weight: normal !important;
+}
+#hero 
+{
+	background: url('../images/bgheader.jpg');
+	background-size: cover;
+	height: 120vh;
+	width: 100%;
+	background-position: top center;
+}
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+    font-family: bahij;
+    letter-spacing: unset;
+    font-size: 20px;
+}
+.logo-between
+{
+	    position: absolute;
+       position: absolute;
+    left: 35%;
+    z-index: 99;
+    top: 29px;
+}
+#aboutus#aboutus p.lead, p{
+	padding: 2rem 0;
+	    padding-top: 30px;
+}
+.header-text
+{
+	    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 250px;
+}
+.header-text h3 {
+    font-size: 50px;
+    display: inline-block;
+}
+.header-text img
+{
+	margin: 0px 30px;
+}
+#aboutus 
+{
+	background: #000;
+}
+.header-border {
+	color: #76bb20;
+	position: relative;
+}
+.header-border {
+    color: rgb(118, 187, 32);
+    position: relative;
+    font-weight: bolder;
+    padding-bottom: 24px;
+}
+.header-border:after
+{
+	position: absolute;
+	    height: 5px;
+   
+    bottom: -9px;
+    right: 0px;
+    content: "";
+    border-bottom: 3px solid rgb(0, 0, 0);
+    min-width: 60px;
+    content: ;
+  border-bottom: 3px solid #cb3525;
+  width: 10px;
+}
+
+.aboutus-text 
+{
+	width: 350px;
+}
+#aboutus p.lead,p
+{
+padding-top: 10px;
+	font-size: 12px !important;;
+	font-family: 'bahij';
+	    font-family: 'bahij' !important;
+    color: #bbb !important;
+}
+.goals-icon p 
+{
+	color: #000;
+	font-size: 12px;
+}
+.goals-icon {
+	margin: 50px 0px;
+    background: rgb(0, 0, 0);
+    padding: 50px;
+    max-width: 500px;
+}
+.goals-icon .icon 
+{
+	float: right;
+}
+.goals-icon h5
+{
+	color: #000;
+}
+
+.goal-icon-text  
+{
+	margin: 0px 60px;
+}
+section#ourGoal {
+    padding: 0rem 0px;
+}
+section#ourGoal 
+{
+	background: url('../images/our-goals.jpg');
+	background-size: cover;
+	background-position: top center;
+	height: 100vh;
+	width: 100%;
+}
+.goal-heading 
+{
+	position: relative;
+}
+section#ourGoal .header-border {
+	    position: absolute;
+    top: 150px;
+    color: #fff;
+    right: 100px;
+}
+.goal-icon {
+    padding: 10px;
+}
+section#ourGoal .our-goal-heading
+{
+	background: url('../images/goalsbg.png');
+	height: 100vh;
+	width: 100%;
+}
+.goals-icon {
+    margin: 50px 0px;
+    background: rgb(0, 0, 0);
+    padding: 8px;
+    width: 400px;
+}
+.our-services
+{
+	position: relative;
+}
+#services
+{
+	position: relative;
+}
+#services .logo-between {
+    position: absolute;
+
+    /* bottom: 381px; */
+    top: 40%;
+
+    left: 150px;
+}
+/*.our-services:after
+{
+	    content: "";
+    width: 500px;
+    height: 100px;
+    background: url('../images/coffelogo.png') -30px -50px no-repeat;
+    bottom: -19px;
+    left: 46px;
+    position: absolute;
+    display: inline-block;
+}*/
+.goals-icon h5{
+	color: #74bc1f;
+}
+
+
+.goals-icon p
+{
+	color: #fff;
+}
+
+#services 
+{
+	margin: 0rem 0px;
+	background: #cb3525;
+}
+.our-services
+{
+   padding: 20px 60px;
+}
+.our-services .header-border{
+	color: #fff;
+	padding: 20px 0px;
+}
+.our-services .header-border:after
+{
+	 border-bottom: 3px solid #74bc1f;
+}
+.our-services
+{
+	background: #000;
+}
+.services-text h4
+{
+	color: #cb3525;
+}
+.services-text{
+	    margin: 0px 60px;
+}
+.services-text p {
+    font-family: bahij;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+}
+.serv-icon
+{
+	margin: 50px 0px;
+}
+.services-icon 
+{
+	float: right;
+	padding: 0px 10px;
+}
+.contact-any-time 
+{
+	margin: 6rem 0 2rem; 
+}
+.contact-any-time h3 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: bold;
+}
+.about-carousel.owl-carousel .owl-nav {
+    position: absolute;
+    position: absolute;
+    top: 89%;
+    height: 6%;
+    width: 80px;
+    background: rgb(255, 255, 255) !important;
+    right: -29px;
+}.about-carousel .owl-next{
+    background: #fff;	
+}
+.about-carousel .owl-nav i 
+{
+	color: #000;
+}
+.owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next {
+    position: absolute;
+    -webkit-transform: unset;
+    -ms-transform: unset;
+    transform: unset;
+    margin-top: 1px;
+    color: #c49b63 !important;
+    -moz-transition: unset;
+    -o-transition: unset;
+    -webkit-transition: unset;
+    -ms-transition: unset;
+    transition: unset;
+    opacity: 0;
+}
+.about-carousel .owl-prev
+{
+	    background: #fff;
+    position: absolute;
+    right: 27px;
+}
+.contact-any-time .header-border{
+	font-size: 30px;
+	color: #000;
+	font-weight: normal;
+}
+.contact-any-time .header-border:after{
+	border-color: #74bc1f;
+}
+#coffeRes 
+{
+	background: #000;
+}
+#coffeRes  .header-border{
+	color: #fff;
+}
+#coffeRes  .header-border:after
+{
+	border-color: #74bc1f;
+}
+#coffeRes .coffe-carousel img
+{
+	width: 150px;
+}
+#coffeRes .coffe-carousel 
+{
+	margin: 50px;
+}
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled 
+
+{
+	display: block;
+}
+.owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next
+{
+	opacity: 1;
+}
+.ftco-section
+{
+	margin: 0rem 0;
+}
+#clients .header-border
+{
+color: #000;
+}
+#clients .header-border:after{
+	border-color: #74bc1f;
+}
+#clients p
+{
+padding-top: 10px;
+
+	    font-family: 'bahij' !important;
+    color: #000 !important;
+}
+#clients .owl-nav
+{
+	display: none;
+
+}
+#clients img {
+    height: 100px;
+    width: auto;
+}
+footer .header-border
+{ 
+ color: #fff;
+ text-align: center;
+}
+
+
+footer .header-border:after{
+	border-color: #74bc1f;
+	  position: absolute;
+    height: 5px;
+    bottom: -25px;
+    right: 36%;
+
+}
+footer .newsletter-email  
+{
+	    background: #fff !important;
+    height: 40px !important;
+    width: 70%;
+}
+footer .btn
+{
+	    width: 70%;
+    color: #000;
+    font-weight: 600;
+    background: #74bc1f !important;
+    background-color: #74bc1f !important;   
+    border-color: unset !important;
+    font-family: bahij;
+}
+.copyright
+{
+	border-top: 1px solid #ccc;
+}
+.appointment-form .form-group {
+    position: relative;
+    width: 100%;
+    display: block;
+    margin-left: 20px;
+        margin-bottom: 0px !important;
+}
+
+
+.appointment-form .form-group input
+{
+	font-family: inherit;
+	border-color: #fff !important;
+}
+::placeholder{
+	font-family: inherit;
+	color: #ccc;
+}
+.appointment-form .form-group input {
+    font-family: 'bahij';
+}
+.appointment-form .submit
+{
+	background: #76bb20;
+	background-color: #76bb20;
+	color: #fff;
+	    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center !important;
+    border-radius: unset;
+}
+.btn {
+    padding: 15px 0px !important;
+    width: 97%;
+    display: block !important;
+    border: unset;
+    margin: 0;
+}
+.ftco-footer {
+    font-size: 16px;
+    padding: 5em 0px 0px;
+    background: #120f0f;
+}
+.breadcrumb
+{
+	background: url('../images/bredcrumb.jpg');
+	height: 60vh;
+	width: 100%;
+	background-position: top center;
+	background-size: cover;
+}
+body.blog
+{
+	background-color: #000;
+}
+
+#blogs .heading .header-border {
+color: #76bb20;
+font-size: 30px;
+}
+#blogs .heading .header-border:after{
+	border-color: #cb3525;
+}
+.pagiantion .block-27 ul li a,.pagiantion .block-27 ul li span
+{
+	border-radius: unset;
+	color: #fff;
+	border: unset;
+}
+.pagiantion  .block-27 ul li.active a,.pagiantion  .block-27 ul li.active span 
+{
+     background: unset;
+     color: #76bb20;
+}
+.pag-next,.pag-next i
+{
+	    color: #cb3525;
+}
+body.blog .ftco-footer {
+    font-size: 16px;
+    padding: 5em 0px 0px;
+    background: rgb(0 0 0);
+}
+.copyright {
+    border-top: 1px solid rgb(204, 204, 204);
+    padding: 20px 0px;
+    font-size: 15px !important;
+     font-family: 'neo' !important;
+}
+#blogs p 
+{
+	    font-size: 15px !important;
+    font-weight: normal !important;
+     font-family: 'neo';
+}
+a.read-more {
+    color: #76bb20;
+    font-family: 'neo' !important;;
+    font-weight: 300;
+}
+.ftco-section#blogs {
+    padding: 3em 0;
+    position: relative;
+}
+#blogs p {
+    font-family: neo !important;
+    font-size: 15px !important;
+    font-weight: normal !important;
+    line-height: 30px;
+}
+
+::placeholder{
+	    color: #d4574b !important;
+	    font-weight: bolder;
+}
+
+/*resposive */
+
+@media(max-width: 768px)
+{
+  .navbar-brand{
+  	    position: relative;
+    left: unset !important;
+    transform: unset;
+  }
+  .navbar-left 
+  {
+  	margin-right: 0px;
+  }
+  .header-text {
+    display: block;
+}
+ #aboutus .logo-between {
+    position: static;
+    left: 35%;
+    z-index: 99;
+    top: 0px;
+    top: 0px;
+    29px: ;
+    margin: 20px 60px;
+}
+about-carousel.owl-carousel .owl-nav {
+    position: absolute;
+    top: 89%;
+    height: 6%;
+    width: 50px;
+    right: 0px;
+    background: rgb(255, 255, 255) !important;
+}
+section#ourGoal .our-goal-heading {
+    background: url(../images/goalsbg.png);
+    height: 50vh;
+    }
+    section#ourGoal {
+    background: url(../images/our-goals.jpg) center top / cover;
+    height: 120vh;
+    width: 100%;
+    margin: 0rem 0 0;
+}
+#ftco-navbar 
+{
+	padding: 50px 0px;
+}
+#ftco-navbar .navbar-toggler 
+{
+	    float: left;
+    position: absolute;
+    left: 0px;
+}
+.header-text h3 {
+    font-size: 40px;
+    display: inline-block;
+}
+#hero {
+    height: 60vh;
+    width: 100%;
+}
+.about-carousel.owl-carousel .owl-nav {
+    position: absolute;
+    top: 89%;
+    height: 6%;
+    width: 50px;
+    right: 8px;
+    }
+.our-services {
+    padding: 20px 0px;
+}
+footer .newsletter-email 
+{
+	width: 100%;
+}
+footer .newsletter-submit
+{
+	width: 100%;
+}
+#services .logo-between {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+}
+#coffeRes .coffe-carousel img {
+    width: 75%;
+    margin: unset;
+}
+#coffeRes .owl-carousel:hover .owl-nav .owl-prev {
+    left: 50px;
+}
+#clients img {
+    height: 250px;
+    width: auto;
+    margin: auto;
+}
+#services .logo-between img
+{
+	width: 80px;
+}
+}
+
+html,body
+{
+	width: 100%;
+	overflow-x: hidden;
+}
+#clients img {
+    height: 100px;
+    width: auto;
+    margin: auto;
+}
+#coffeRes .coffe-carousel img {
+    width: 150px;
+    margin: auto;
+}
