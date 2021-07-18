@@ -65,11 +65,11 @@ body {
   background-color: #fff; }
 @font-face{
   font-family: 'bahij';
-  src: url(../fonts/alfont_com_AlFont_com_JannaLT-Regular.ttf);
+  src: url(../fonts/alfont_com_bahig.ttf);
 }
 @font-face{
   font-family: 'neo';
-  src: url(../fonts/alfont_com_AlFont_com_Neo-Sans-W23.ttf);
+  src: url(../fonts/neo.ttf);
 }
 
 [tabindex="-1"]:focus {

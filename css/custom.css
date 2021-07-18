@@ -255,7 +255,7 @@ section#ourGoal .our-goal-heading
     position: absolute;
     top: 89%;
     height: 6%;
-    width: 80px;
+    width: 50px;
     background: rgb(255, 255, 255) !important;
     right: -29px;
 }.about-carousel .owl-next{
